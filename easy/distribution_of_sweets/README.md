@@ -1,4 +1,5 @@
-Difficulty : easy
+<pre>
+Difficulty : easy 
 Problem: 
 	You have a box of popsicles and you want to give them all away to a group of brothers and sisters. 
 	If you have enough left in the box to give them each an even amount you should go for it! If not, 
@@ -17,3 +18,4 @@ Problem:
 	3 9
 	Sample Output:
 	give away
+</pre>
