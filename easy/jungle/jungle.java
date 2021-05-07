@@ -9,7 +9,8 @@ import java.util.Scanner;
 public class metodo {
     public static void main(String[] args) {
         /*Esto es para que acepte una entrada con espacios: 
-        ejemplo: Rawr Chirp Ssss*/        
+        ejemplo: Rawr Chirp Ssss*/
+        System.out.println("Noises: ");
         Scanner scan = new Scanner(System.in);
         String noises = "";
         noises += scan.nextLine();
