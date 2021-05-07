@@ -11,10 +11,9 @@ public class metodo {
         /*Esto es para que acepte una entrada con espacios: 
         ejemplo: Rawr Chirp Ssss*/
         System.out.println("Noises: ");
-        Scanner scan = new Scanner(System.in);
-        String noises = "";
-        noises += scan.nextLine();
-        scan.close();
+        Scanner input = new Scanner(System.in);
+        
+        String noises = input.nextLine();
 
         //Separamos el string por espacios
         String[] NoisesList = noises.split("\\s+");
@@ -36,9 +35,6 @@ public class metodo {
                          break;
             }
         }
-        
-        System.out.println(ouput);
-         
+        System.out.println(ouput);    
     }
-    
 }
