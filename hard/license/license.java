@@ -11,20 +11,19 @@ import java.util.Scanner;
 public class metodo {
     public static void main(String[] args) { 
 
-        Scanner scan = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         
         System.out.println("Mi name : ");
-        String mi_name = scan.next();
-
+        String mi_name = input.next();
+        
         System.out.println("Number of agents : ");
-        int agents = scan.nextInt();
+        int agents = input.nextInt();
         
-        Scanner lec = new Scanner(System.in);
+        input.nextLine();
+        
         System.out.println("Names : ");
-        String people_names = "";
-        people_names += lec.nextLine();
-        lec.close();
-        
+        String people_names = input.nextLine();
+
         //Separamos el string por espacios
         String[] p_names = people_names.split("\\s+");
         
