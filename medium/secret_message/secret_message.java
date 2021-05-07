@@ -9,11 +9,11 @@ public class metodo {
 
 
    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        Scanner input =new Scanner(System.in);
         
         System.out.println("Mensaje : ");
-        String s=sc.nextLine();
-        char []ch= s.toCharArray();//Pasamos el string a un array de tipo char
+        String message = input.nextLine();
+        char []ch= message.toCharArray();//Pasamos el string a un array de tipo char
         
         for(int i=0;i<ch.length;i++)
         {
