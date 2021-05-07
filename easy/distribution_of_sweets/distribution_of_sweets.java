@@ -3,7 +3,7 @@ package ejercicios;
 import java.util.Scanner;
 
 /**
- *06/05/2021
+ *07/05/2021
  * @author Andre Peralta
  */
 public class metodo {
