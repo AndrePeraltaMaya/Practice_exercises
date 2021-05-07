@@ -23,9 +23,7 @@ def us_date(date):
 
 		date_list[0] = months[date_list[0]]
 
-		date_list[1] = date_list[1].split(',')
-
-		print(date_list[1][0] + '/' + date_list[0] + '/' + date_list[1][1])
+		print(date_list[1][:-1] + '/' + date_list[0] + '/' + date_list[2])
 
 date = input()
 
