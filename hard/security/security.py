@@ -7,15 +7,12 @@ def alarm(floor):
 		floor = floor[money_pos:thief_pos+1][::-1]
 		if floor.find('G') == -1:
 			print('ALARM')
-			print(floor)
-
 		else:
 			print('quiet')
 
 	else:
 		floor = floor[thief_pos:money_pos+1]
 		if floor.find('G') == -1:
-			print(floor)
 			print('ALARM')
 		else:
 			print('quiet')
