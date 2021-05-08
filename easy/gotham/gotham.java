@@ -16,7 +16,7 @@ public class metodo {
 	if(enemys < 5 ){
             System.out.println("I got this!");
         }
-        else if(enemys >= 5 && enemys < 10){
+        else if(enemys >= 5 && enemys <= 10){
             System.out.println("Help me Batman");
         }
         else if(enemys > 10){
