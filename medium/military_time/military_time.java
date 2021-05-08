@@ -8,6 +8,7 @@ public class metodo {
    public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
+        System.out.println("Hour :");
         String s = input.nextLine();
         String [] y = s.split(" ");
         String xx = y[0];
