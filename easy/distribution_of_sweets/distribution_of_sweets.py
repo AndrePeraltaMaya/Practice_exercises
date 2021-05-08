@@ -1,7 +1,7 @@
 
 def distribution(siblings,popsicles):
-	'''returns a string "give away" if multiple sweets can be distributed among a group of children,
-	otherwise returns the string "eat them yourself"'''
+	'''returns a string "give away" if multiple candies can be distributed to a group of children equally,
+     otherwise it returns the string "eat them yourself'''
 	
 	if popsicles%siblings == 0:
 		print("give away")
