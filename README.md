@@ -8,7 +8,6 @@ The problems will be divided into three easy, medium and hard difficulties (mayb
 - JavaScript
 - Java
 - Ruby
-- Fast
 - C #
 - C ++
 - C
