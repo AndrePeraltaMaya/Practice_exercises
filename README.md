@@ -12,6 +12,7 @@ The problems will be divided into three easy, medium and hard difficulties (mayb
 - C #
 - C ++
 - C
+- Kotlin
 
 These exercises will be taken from various pages and applications, and others will be designed by me.
 
