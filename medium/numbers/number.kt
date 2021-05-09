@@ -21,8 +21,8 @@ fun change(text:String):String{
 fun main(args: Array<String>){
 	
     println("Text : ")
-    //var text = readLine()
+    var text = readLine()
     
-    println(change("an12dre10a"))     
+    println(change(text))     
       
 }
