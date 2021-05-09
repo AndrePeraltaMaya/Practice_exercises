@@ -18,16 +18,16 @@ fun minutes(mi_name:String,names:String,agents:Int):Double{
 fun main(args: Array<String>){
 	
     println("Mi name : ")
-    //var mi_name = readLine()
+    var mi_name = readLine()
     
-	println("Names list : ")
-    //var names = readLine()
+    println("Names list : ")
+    var names = readLine()
     
-	println("Agents : ")
-    //var agents = readLine()!!.toInt()	
+    println("Agents : ")
+    var agents = readLine()!!.toInt()	
     
-    //println(minutes(mi_name,names,agents))    
-    println(minutes("Sara","Adam Caroline Rebecca Frank",2))    
+    println(minutes(mi_name,names,agents))    
+
     
     
 
