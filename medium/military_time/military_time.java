@@ -9,22 +9,22 @@ public class metodo {
 
         Scanner input = new Scanner(System.in);
         System.out.println("Hour :");
-        String s = input.nextLine();
-        String [] y = s.split(" ");
-        String xx = y[0];
-        String xx1 = y[1];
-        String [] t = xx.split(":");
+        String hour = input.nextLine();
+        String [] hour_list = hour.split(" ");
+        String hours = hour_list[0];
+        String time = hour_list[1];
+        String [] hour_minutes = hours.split(":");
         int uu = 0;
 
-        if(xx1.equals("PM")) {
-            uu = Integer.valueOf(t[0]);
+        if(time.equals("PM")) {
+            uu = Integer.valueOf(hour_minutes[0]);
             uu = uu + 12;
-            System.out.println(String.valueOf(uu)+":"+t[1]);
+            System.out.println(String.valueOf(uu)+":"+hour_minutes[1]);
         }
-        else if (Integer.valueOf(t[0])<10){
-            System.out.println("0"+t[0]+":"+t[1]);
+        else if (Integer.valueOf(hour_minutes[0])<10){
+            System.out.println("0"+hour_minutes[0]+":"+hour_minutes[1]);
         }
-        else System.out.println(xx);
+        else System.out.println(hours);
 
     }
 }
