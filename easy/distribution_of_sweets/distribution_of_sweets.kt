@@ -1,6 +1,6 @@
 fun distribution(siblings:Int,brothers:Int):String{
     
-    if(popsicles%siblings == 0){
+    if(siblings%siblings == 0){
             return("give away")
     }
 
@@ -16,6 +16,6 @@ fun main(args: Array<String>){
     println("Number of sweets : ")
     var siblings = readLine()!!.toInt()
 
-   	printl(distribution(siblings,brothers))
+   	println(distribution(siblings,brothers))
   
 }
