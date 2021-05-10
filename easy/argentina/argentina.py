@@ -8,7 +8,7 @@ def buy(pesos,dollars):
 		print("Pesos")
 
 
-price_dollars = int(input('number of enemys'))
-price_pesos = int(input('number of enemys'))
+price_dollars = int(input('Price in dollars'))
+price_pesos = int(input('Price in pesos'))
 
 buy(price_pesos,price_dollars)
