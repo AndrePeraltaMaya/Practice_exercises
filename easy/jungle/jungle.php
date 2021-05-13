@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tickets</title>
+	<title>Jungle</title>
 </head>
 <body>
 	<form  method="post">
