@@ -13,13 +13,13 @@ Task:
   Determine whether or not you made a profit based on how many of the ten hovercrafts
   you were able to sell that month.
  
-  Input Format: 
+Input Format: 
 
-An integer that represents the sales that you made that month.
+  An integer that represents the sales that you made that month.
 
-  Output Format: 
+Output Format: 
 
-A string that says 'Profit', 'Loss', or 'Broke Even'.
+  A string that says 'Profit', 'Loss', or 'Broke Even'.
 
 Sample Input: 
 
