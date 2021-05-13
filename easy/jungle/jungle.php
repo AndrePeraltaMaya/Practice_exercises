@@ -1,26 +1,43 @@
-<?php
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tickets</title>
+</head>
+<body>
+	<form  method="post">
+		<label for="noises">noises heard : </label>
+		<input type="text"  name="noises">
 
-$noises = "Rawr Chirp Ssss";
-#Lios say 'Grr', Tigers say 'Rawr', Snakes say 'Ssss', and Birds say 'Chirp'.
-$noises_list = explode(" ", $noises);
+		<input type="submit" value="Action" >
+	</form>	
+	<br>
+	<?php
 
-foreach ($noises_list as $noise) {
+	$noises = $_POST["noises"];
+	#Lios say 'Grr', Tigers say 'Rawr', Snakes say 'Ssss', and Birds say 'Chirp'.
+	$noises_list = explode(" ", $noises);
 
-	switch ($noise) {
-		case "Grr":
-			echo "Lions ";
-			break;
-		case "Rawr":
-			echo "Tigers " ; 
-			break;
-		case "Ssss":
-			echo "Snakes ";
-			break;
-		case "Chirp":
-			echo "Birds ";
-			break;
+	foreach ($noises_list as $noise) {
 
+		switch ($noise) {
+			case "Grr":
+				echo "Lions ";
+				break;
+			case "Rawr":
+				echo "Tigers " ; 
+				break;
+			case "Ssss":
+				echo "Snakes ";
+				break;
+			case "Chirp":
+				echo "Birds ";
+				break;
+
+		}
 	}
-}
 
-?>
+	?>
+
+</body>
+</html>
+		
