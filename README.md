@@ -1,7 +1,7 @@
 # Practice_exercises
 Repository made to show programming problems / exercises in various difficulties and in various languages, to practice and not rust the logic.
 
-The problems will be divided into three easy, medium and hard difficulties (maybe 4, with very difficult) and each of them will be solved in 9 programming languages:
+The problems will be divided into three: easy, medium and hard difficulties (maybe 4, with very difficult) and each of them will be solved in 9 programming languages:
 
 - Python
 - PHP
