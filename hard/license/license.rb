@@ -19,8 +19,13 @@ def minutes_license mi_name,n_agents,names_list
 
 end
 
+puts "mi name: "
 mi_name = gets
+
+puts "Number of agents: "
 n_agents = gets.to_i
+
+puts "Name's lists"
 names_list = gets
 
 puts minutes_license(mi_name,n_agents,names_list)
