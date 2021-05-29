@@ -22,10 +22,15 @@ int main(){
 
     int pos_fila = 1;/**posicion minima en la que podemos encontrarnos**/
     int time = 20;
+    
     for (const auto &str : names) {/**Encontrar nuestra posición en la fila**/
-            if(str == name)break;
+            if(str == name){
+                break;
+            }
             pos_fila++;
-            if (pos_fila%agents == 0)time += 20;
+            if (pos_fila%agents == 0){
+                time += 20;
+            }
     }
     std::cout << time;
 }
