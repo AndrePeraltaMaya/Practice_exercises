@@ -6,7 +6,6 @@ int main(){
     char text[100];
 
     fgets(text,100,stdin);
-    strlwr(text);
     for(int i = 0 ; i < strlen(text) ; i++){
 
         if((text[i] >= 65 && text[i] <= 90)){
