@@ -18,7 +18,7 @@ int main(){
            printf("%c",diferencia);
         }
         if((i >= 97 && i <= 122)){
-             int diferencia = 122-(i-97)+32;
+             int diferencia = 122-(i-97);
              printf("%c",diferencia);
         }
         if( i == 32){
